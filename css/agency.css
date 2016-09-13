@@ -6,7 +6,7 @@
 
 body {
     overflow-x: hidden;
-    font-family: "Raleway",Helvetica,Arial,sans-serif;
+    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 .text-muted {
@@ -175,7 +175,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+    font-family: "Droid Serif", "Helvetica Neue",Helvetica,Arial,cursive;
     color: #fed136;
 }
 
@@ -281,16 +281,16 @@ header .intro-text {
 
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
-    font-family: "Raleway","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 22px;
-    font-style: normal;
+    font-style: italic;
     line-height: 22px;
 }
 
 header .intro-text .intro-heading {
     margin-bottom: 25px;
     text-transform: uppercase;
-    font-family: Montserrat,"Raleway",Helvetica,Arial,sans-serif;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 50px;
     font-weight: 700;
     line-height: 50px;
@@ -304,16 +304,16 @@ header .intro-text .intro-heading {
 
     header .intro-text .intro-lead-in {
         margin-bottom: 25px;
-        font-family: "Raleway","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 40px;
-        font-style: normal;
+        font-style: italic;
         line-height: 40px;
     }
 
     header .intro-text .intro-heading {
         margin-bottom: 50px;
         text-transform: uppercase;
-        font-family: Montserrat,"Raleway",Helvetica,Arial,sans-serif;
+        font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 75px;
         font-weight: 700;
         line-height: 75px;
@@ -328,15 +328,14 @@ section h2.section-heading {
     margin-top: 0;
     margin-bottom: 15px;
     font-size: 40px;
-    color: #fff;
 }
 
 section h3.section-subheading {
     margin-bottom: 75px;
     text-transform: none;
-    font-family: "Raleway","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
-    font-style: normal;
+    font-style: none;
     font-weight: 400;
 }
 
@@ -413,9 +412,9 @@ section h3.section-subheading {
 
 #portfolio .portfolio-item .portfolio-caption p {
     margin: 0;
-    font-family: "Raleway","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
-    font-style: normal;
+    font-style: none;
 }
 
 #portfolio * {
@@ -628,6 +627,26 @@ section h3.section-subheading {
     }
 }
 
+.photography {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.photography img {
+    margin: 0 auto;
+    border: 7px solid #f1f1f1;
+}
+
+.photography h4 {
+    margin-top: 25px;
+    margin-bottom: 0;
+    text-transform: none;
+}
+
+.photography p {
+    margin-top: 0;
+}
+
 .team-member {
     margin-bottom: 50px;
     text-align: center;
@@ -647,37 +666,15 @@ section h3.section-subheading {
 .team-member p {
     margin-top: 0;
 }
-
 aside.clients img {
     margin: 50px auto;
 }
 
-section#skills {
-    background-image: url(../img/bg-image.jpg);
-    background-position: center;
-    background-repeat: repeat-y;;
-}
-
-section#about {
-    background-color: #f5af35;
-}
-
-section#portfolio {
-    background-color: #222;
-}
-
-section#photography {
-    background-color: #222;
-    background-image: url(../img/bg-image.jpg);
-    background-position: center;
-    background-repeat: repeat-y;;
-}
-
 section#contact {
     background-color: #222;
-    background-image: url(../img/bg-image.jpg);
+    background-image: url(../img/map-image.png);
     background-position: center;
-    background-repeat: repeat-y;;
+    background-repeat: no-repeat;
 }
 
 section#contact .section-heading {
@@ -812,9 +809,9 @@ ul.social-buttons li a:active {
 
 .portfolio-modal .modal-content p.item-intro {
     margin: 20px 0 30px;
-    font-family: "Raleway","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
-    font-style: normal;
+    font-style: none;
 }
 
 .portfolio-modal .modal-content ul.list-inline {
