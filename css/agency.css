@@ -652,6 +652,7 @@ section h3.section-subheading {
     text-align: center;
 }
 
+<<<<<<< HEAD
 .team-member img {
     margin: 0 auto;
     border: 7px solid #fff;
@@ -661,18 +662,38 @@ section h3.section-subheading {
     margin-top: 25px;
     margin-bottom: 0;
     text-transform: none;
+=======
+section#skills {
+    background-color: #222;
+    background-image: url(../img/bg-image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+section#about {
+    background-color: #fdc439;
+>>>>>>> master
 }
 
 .team-member p {
     margin-top: 0;
 }
+<<<<<<< HEAD
 aside.clients img {
     margin: 50px auto;
+=======
+
+section#photography {
+    background-color: #222;
+    background-image: url(../img/bg-image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+>>>>>>> master
 }
 
 section#contact {
     background-color: #222;
-    background-image: url(../img/map-image.png);
+    background-image: url(../img/bg-image.jpg);
     background-position: center;
     background-repeat: no-repeat;
 }
